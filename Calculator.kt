@@ -34,3 +34,18 @@ class Calculator (val name: String) {
     return result
   }
 }
+
+fun main () {
+  var myCalculator = Calculator("Codey")
+
+  println(myCalculator.add(8, 11))
+
+  println(myCalculator.subtract(8, 11))
+
+  println(myCalculator.multiply(8, 11))
+
+  println(myCalculator.divide(8, 0))
+
+  println(myCalculator.power(8, 11))
+
+}
